@@ -36,7 +36,7 @@ module.exports = {
 
     // 没有子组件的组件可以自动闭合，以避免不必要的额外闭合标签
     'react/self-closing-comp': [
-      'error',
+      0,
       {
         component: true,
         html: true,

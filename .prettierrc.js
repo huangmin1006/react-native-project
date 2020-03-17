@@ -1,7 +1,7 @@
 module.exports = {
-  bracketSpacing: false,
-  jsxBracketSameLine: true,
+  bracketSpacing: true, // 是否在对象属性添加空格
+  // jsxBracketSameLine: true,
   singleQuote: true,
   trailingComma: 'all',
-  printWidth: 120,
-}
+  printWidth: 120, // 指定代码换行的行长度。单行代码宽度超过指定的最大宽度，将会换行，如果都不想换，可以添加 "proseWrap": "never"
+};
