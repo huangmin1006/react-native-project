@@ -1,4 +1,4 @@
-package com.reactnativetsproject;
+package com.reactnativets;
 
 import android.app.Application;
 import android.content.Context;
